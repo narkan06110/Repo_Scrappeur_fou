@@ -1,4 +1,4 @@
-require_relative '../lib/treding_App'
+require_relative '../lib/00_dark_trader'
 
 describe "Dark_Trader method include names" do 
     it "should return many cryptomoney names" do 
@@ -23,8 +23,8 @@ end
     end  
  end 
 
-describe "Dark_trader size" do 
+ describe "Dark_trader size" do 
     it "should be superior to 100" do
         expect($Dark_trader.size >  100).to eq(true)
     end 
-end 
+ end 
